@@ -33,3 +33,21 @@ console.log(typeof six);
 // boolean
 console.log(typeof seven);
 //  number
+
+const bigInt = 10000000000000n;
+
+console.log(typeof bigInt);
+// bigint
+
+console.log(-100n);
+// -100n
+
+console.log(10 ** 500);
+//infinity
+
+console.log(10n ** 500n);
+// 10000000000000000000000000000000000000000000000000…000000000000000000000000000000000000000000000000n
+
+
+
+
